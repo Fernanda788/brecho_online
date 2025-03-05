@@ -15,6 +15,10 @@ body {
     padding: 1rem;
 }
 
+.titulo h2{
+    text-align: center;
+}
+
 .navbar ul {
     list-style: none;
     display: flex;
