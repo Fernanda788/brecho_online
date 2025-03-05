@@ -33,17 +33,14 @@ body {
 }
 
 main {
-    padding: 2rem;
-    max-width: 1200px;
+    /* padding: 2rem;
+    max-width: 1200px; Deixaria esses dois se não quiséssemos que ocupasse toda a página*/ 
     margin: 0 auto;
 }
 
 section {
     margin: 2rem 0;
-    padding: 2rem;
-    background-color: rgb(28, 187, 121);
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 2rem; 
 }
 
 .conteudo {
@@ -77,15 +74,8 @@ section {
     width: 100%;
 }
 
-#sobre {
-    border: 2px solid #ffd700;
-}
-
-#produtos {
-    
-}
-#contato {
-    display: flex;
+#produtos h2 { /* A # é porque é um identificador*/
+    color: white;
 }
 
 #contato h2 {
@@ -102,8 +92,3 @@ section {
     width: 100%;
     transition: transform 0.5s ease-in-out;
 }
-
-.navbar exemplo {
-    color: wheat;
-}
-
