@@ -103,12 +103,6 @@ section {
 #contato h2 {
     color: #069;
 }
-
-.carousel {
-    display: flex;
-    overflow: hidden;
-
-}
    
 .carousel {
     display: flex;
@@ -120,8 +114,3 @@ section {
     width: 100%;
     transition: transform 0.5s ease-in-out;
 }
-
-.navbar exemplo {
-    color: white;
-}
-
