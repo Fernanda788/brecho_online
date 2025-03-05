@@ -41,7 +41,7 @@ main {
 section {
     margin: 2rem 0;
     padding: 2rem;
-    background-color: white;
+    background-color: rgb(28, 187, 121);
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
@@ -122,6 +122,6 @@ section {
 }
 
 .navbar exemplo {
-    color: white;
+    color: wheat;
 }
 
