@@ -103,12 +103,6 @@ section {
 #contato h2 {
     color: #069;
 }
-
-.carousel {
-    display: flex;
-    overflow: hidden;
-
-}
    
 .carousel {
     display: flex;
