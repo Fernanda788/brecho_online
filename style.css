@@ -2,16 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 body {
     line-height: 1.6;
-    background-color: #f4f4f4ea;
+    background-color: #dadadaea;
 }
 
 .navbar {
-    background-color: #2e5ad2;
+    background-color: #3f60bb;
     padding: 1rem;
 }
 
@@ -32,6 +32,11 @@ body {
     margin-bottom: 20px;
 }
 
+.navbar img{
+    height: auto;
+    width: 150px;
+}
+
 .navbar a {
     color:white;
     text-decoration: none;
@@ -39,7 +44,7 @@ body {
 }
 
 .navbar a:hover {
-    color: lightblue;
+    color: rgb(107, 203, 240);
 }
 
 main {
@@ -59,13 +64,6 @@ section {
 
 #sobre {
     display: flex;
-}
-
-.info-contato {
-    background-color: rgba(0,0,0,0.5);
-    padding: 1.5rem;
-    margin: 1rem 0;
-    border-radius: 5px;
 }
 
 .rodape {
@@ -99,13 +97,9 @@ section {
 
 #formulario-contato {
     padding: 20px;
-    background-color: rgb(86,86,86);
+    background-color:#2f60c8;
 }
-
-#contato h2 {
-    color: white;
-}
-   
+ 
 .carousel {
     display: flex;
     overflow: hidden;
@@ -120,6 +114,11 @@ section {
     box-sizing: border-box;
     border-radius: 8px;
     padding: 10px;
+
+}
+
+.card {
     border: 1px solid; /* Esse fez a bordinha em casa imagem */
+    border-radius: 8px;
 }
 
