@@ -118,6 +118,6 @@ section {
 }
 
 .card {
-    border: 1px solid; /* Esse fez a bordinha em casa imagem */
+    border: 1px solid; /* Esse fez a bordinha em cada imagem */
     border-radius: 8px;
 }
