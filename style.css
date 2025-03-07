@@ -90,7 +90,7 @@ section {
 .carousel {
     display: flex;
     overflow: hidden;
-    width: 1200px;
+    width: 1800px;
     gap: 10px;
     text-align: center;
 }
