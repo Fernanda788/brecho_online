@@ -15,12 +15,12 @@ body {
     padding: 1rem;
 }
 
-.titulo {
-    margin: 1rem 0;
-    padding: 2rem; 
-}
-
-.titulo h2{
+#titulo {
+    margin: 2rem 0;
+    padding: 3rem; 
+    box-sizing: border-box;
+    background-color:aliceblue;
+    border-radius: 8px;
     text-align: center;
 }
 
