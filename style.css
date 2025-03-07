@@ -84,6 +84,18 @@ section {
     text-align: center;
 }
 
+#contato {
+    position:fixed; /*Fixa apesar de scrolling da página*/
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    border-radius: 8px;
+    padding: 10px; /*Espaça*/
+    align-items: center;
+    background-color: black;
+    opacity: 0.8;
+}
+
 #contato h2 {
     color: white;
 }
@@ -91,7 +103,7 @@ section {
 .carousel {
     display: flex;
     overflow: hidden;
-    width: 1000px;
+    width: 1400px;
     gap: 10px;
     text-align: center;
 }
