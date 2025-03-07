@@ -92,6 +92,7 @@ section {
     overflow: hidden;
     width: 1200px;
     gap: 10px;
+    text-align: center;
 }
 
 .carousel img {
