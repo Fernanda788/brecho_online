@@ -30,12 +30,14 @@ body {
 }
 
 #titulo {
-    margin: 2rem 0;
+    margin: 2rem;
     padding: 3rem; 
     box-sizing: border-box;
     background-color:aliceblue;
     border-radius: 8px;
     text-align: center;
+    margin-right: 100px;
+    margin-left: 100px;
 }
 
 .navbar ul {
@@ -74,6 +76,9 @@ section {
 .conteudo {
     padding: 1rem;
     margin-bottom: 1rem;
+}
+.comprar_produtos {
+    text-align: center;
 }
 
 #sobre {
@@ -135,3 +140,4 @@ section {
     border: 1px solid; /* Esse fez a bordinha em cada imagem */
     border-radius: 8px;
 }
+
