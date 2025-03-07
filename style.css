@@ -92,13 +92,9 @@ section {
 
 #formulario-contato {
     padding: 20px;
-    background-color: rgb(86,86,86);
+    background-color:#2f60c8;
 }
-
-#contato h2 {
-    color: white;
-}
-   
+ 
 .carousel {
     display: flex;
     overflow: hidden;
@@ -113,5 +109,9 @@ section {
     box-sizing: border-box;
     border-radius: 8px;
     padding: 10px;
+
+}
+
+.card {
     border: 1px solid; /* Esse fez a bordinha em casa imagem */
 }
