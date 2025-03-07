@@ -7,12 +7,17 @@
 
 body {
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background-color: #f4f4f4ea;
 }
 
 .navbar {
     background-color: #333;
     padding: 1rem;
+}
+
+.titulo {
+    margin: 1rem 0;
+    padding: 2rem; 
 }
 
 .titulo h2{
@@ -27,7 +32,7 @@ body {
 }
 
 .navbar a {
-    color:antiquewhite;
+    color:white;
     text-decoration: none;
     font-weight: bold;
 }
@@ -40,8 +45,7 @@ main {
     /* padding: 2rem;
     max-width: 1200px; Deixaria esses dois se não quiséssemos que ocupasse toda a página*/ 
     margin: 0 auto;
-}
-
+} 
 section {
     margin: 2rem 0;
     padding: 2rem; 
@@ -49,19 +53,15 @@ section {
 
 .conteudo {
     padding: 1rem;
-    border-bottom: 2px solid #eee;
     margin-bottom: 1rem;
 }
 
-.card-produto {
-    background-color: #fff9e6;
-    padding: 1.5rem;
-    margin: 1rem 0;
-    border-left: 4px solid #ffd700;
+#sobre {
+    display: flex;
 }
 
 .info-contato {
-    background-color: #e6f3ff;
+    background-color: rgba(0,0,0,0.5);
     padding: 1.5rem;
     margin: 1rem 0;
     border-radius: 5px;
@@ -80,19 +80,26 @@ section {
 
 #produtos h2 { /* A # é porque é um identificador*/
     color: white;
+    text-align: center;
 }
 
 #contato h2 {
-    color: #069;
+    color: white;
 }
    
 .carousel {
     display: flex;
     overflow: hidden;
-    width: 1000px;
+    width: 1200px;
+    gap: 10px;
+    text-align: center;
 }
 
 .carousel img {
     width: 100%;
     transition: transform 0.5s ease-in-out;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid; /* Esse fez a bordinha em casa imagem */
 }
