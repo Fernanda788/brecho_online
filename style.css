@@ -32,6 +32,11 @@ body {
     margin-bottom: 20px;
 }
 
+.navbar img{
+    height: auto;
+    width: 150px;
+}
+
 .navbar a {
     color:white;
     text-decoration: none;
@@ -114,4 +119,5 @@ section {
 
 .card {
     border: 1px solid; /* Esse fez a bordinha em casa imagem */
+    border-radius: 8px;
 }
