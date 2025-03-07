@@ -96,6 +96,11 @@ section {
     opacity: 0.8;
 }
 
+#formulario-contato {
+    padding: 20px;
+    background-color: rgb(86,86,86);
+}
+
 #contato h2 {
     color: white;
 }
