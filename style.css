@@ -61,13 +61,6 @@ section {
     display: flex;
 }
 
-.info-contato {
-    background-color: rgba(0,0,0,0.5);
-    padding: 1.5rem;
-    margin: 1rem 0;
-    border-radius: 5px;
-}
-
 .rodape {
     background-color: #2f60c8;
     color: white;
