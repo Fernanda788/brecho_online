@@ -2,9 +2,22 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    
 }
 
+
+.instrument-serif-regular {
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .instrument-serif-regular-italic {
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
 body {
     line-height: 1.6;
     background-color: #dadadaea;
@@ -126,3 +139,4 @@ section {
     border: 1px solid; /* Esse fez a bordinha em cada imagem */
     border-radius: 8px;
 }
+
