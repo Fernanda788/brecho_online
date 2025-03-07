@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 body {
@@ -39,7 +39,7 @@ body {
 }
 
 .navbar a:hover {
-    color: lightblue;
+    color: rgb(107, 203, 240);
 }
 
 main {
